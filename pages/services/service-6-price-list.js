@@ -395,6 +395,8 @@ export default function Service6PriceList(){
                         </span>
                     </div>
                 </div>
+
+                
             </div>
         </div>
         </>

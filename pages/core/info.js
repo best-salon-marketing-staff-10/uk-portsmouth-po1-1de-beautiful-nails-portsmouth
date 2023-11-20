@@ -159,7 +159,7 @@ const serviceCategory = {
   serviceCategory3:"Manicure / Pedicure",
   serviceCategory4:"Hair Wash massage with NuSkin",
   serviceCategory5:"Nail design",
-  serviceCategory6:"Waxing",
+  serviceCategory6:"Eyebrows & Waxing",
   serviceCategory7:"Facial",
 
   mobileLinkToServiceCategory1 : "/services#m-service-list-1",
@@ -911,7 +911,7 @@ const images = {
   
     service14 : "Acrylic Fullset on Feet with normal nail polish",
     service14Time : "45 mins",
-    service14Price : "35",
+    service14Price : "36",
     service14Description : "An acrylic extension on your toes is just the thing to give yourself a little extra pampering. Whether you just want to do something new for your nails or you’ve been looking for an excuse to treat yo-self. This could be a great option for you",
   
     service15 : "Acrylic Infill on Feet with normal nail polish",
@@ -941,7 +941,7 @@ const images = {
   
     service20 : "Take off Powder and Polish",
     service20Time : "30 mins",
-    service20Price : "18",
+    service20Price : "20",
     service20Description : "Take off then normal polish",
   
     service21 : "Take off Powder + Shellac",
@@ -954,14 +954,14 @@ const images = {
     service22Price : "35",
     service22Description : "Take off then Manicure and then Shellac",
   
-    service23 : "Dipping Powder SNS (from)",
+    service23 : "SNS Extention",
     service23Time : "45 mins",
     service23Price : "36",
     service23Description : "SNS Dipping Powder creates a stronger polish finish which can help strengthen brittle or weak nails.",
   
     service24 : "BIAB buider gel Fullset",
     service24Time : "35 mins",
-    service24Price : "37",
+    service24Price : "36",
     service24Description : "",
   
     service25 : "BIAB buider gel Infill",
@@ -1078,6 +1078,11 @@ const images = {
     service47Time : "45 mins",
     service47Price : "35",
     service47Description : "",
+
+    service48 : "Take off BIAB and Redone a Newset",
+    service48Time : "1 hr",
+    service48Price : "40",
+    service48Description : "",
     }; 
   
   const serviceList2 = {
@@ -1098,7 +1103,7 @@ const images = {
   
     service4 : "Pedicure Shellac",
     service4Time : "40 mins",
-    service4Price : "35",
+    service4Price : "38",
     service4Description : "Please bring Flip Flops/Sandals. Highly recommended with Gel Colour. Last longer and less likely to chip! Fries instantly so you don't have to worry about smudging it.",
   
     service5 : "Gel Polish Manicure & Pedicure",
@@ -1141,7 +1146,7 @@ const images = {
   
     service2 : "Pedicure with normal polish",
     service2Time : "40 mins",
-    service2Price : "30",
+    service2Price : "33",
     service2Description : "A classic pedicure is all you need to take great care of your feet and nails. Includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
     
     service3 : "Luxury Pedicure",
@@ -1211,12 +1216,12 @@ const images = {
 
     service16 : "Icedancer Pedicure & Manicure with normal polish",
     service16Time : "70 mins",
-    service16Price : "60",
+    service16Price : "65",
     service16Description : "Your feet and hands have been long awaiting a rejuvenating pedicure and manicure. Say ahh… to a warm whirlpool soak with Mineral Herbal Bath. Then, enjoy a gentle massage and Walnut Husk Liquid Body Lufra exfoliation. While the regular pedicure components are being attended to, a calf massage with the Invigorating Icedancer and a steamy towel wrap are added to restore vitality and energize the legs. Dry heels are also treated with the allspice berry Sole Solution. Finish with a soft yet intense hydrating Baobab Body Butter for the ultimate experience.",
 
     service17 : "Icedancer Pedicure & Manicure with gel polish",
     service17Time : "70 mins",
-    service17Price : "75",
+    service17Price : "80",
     service17Description : "Your feet and hands have been long awaiting a rejuvenating pedicure and manicure. Say ahh… to a warm whirlpool soak with Mineral Herbal Bath. Then, enjoy a gentle massage and Walnut Husk Liquid Body Lufra exfoliation. While the regular pedicure components are being attended to, a calf massage with the Invigorating Icedancer and a steamy towel wrap are added to restore vitality and energize the legs. Dry heels are also treated with the allspice berry Sole Solution. Finish with a soft yet intense hydrating Baobab Body Butter for the ultimate experience.",
 
     service18 : "Smoothing Pedicure & Manicure with normal polish",
@@ -1226,17 +1231,17 @@ const images = {
 
     service19: "Smoothing Pedicure & Manicure with gel polish",
     service19Time : "65 mins",
-    service19Price : "65",
+    service19Price : "70",
     service19Description : "Start with a Mineral Herbal Bath Soak, followed by a gentle massage and exfoliation with natural Body Liquid Lufra. After the nails and cuticles are carefully trimmed and shaped, the heels are treated with an allspice berry solution. Finish with a traditional lower leg massage using the Body Smoother solution, leaving your skin feeling silky.",
 
     service20: "Firewalker Pedicure & Manicure with normal polish",
     service20Time : "80 mins",
-    service20Price : "70",
+    service20Price : "75",
     service20Description : "Indulge in this guilt-free pleasure. The Firewalker Pedicure & Manicure will leave your feet, legs, and hands feeling amazing. Start with an Herbal Mineral Bath, followed by a blend of Grapefruit Body Bar and Walnut Body Lufra Exfoliating. Top it off with the Revitalizing Ice Dancer leg massage and a hot towel wrap to elevate your pedicure experience. Along with our famous Sole Solution heel treatment, finger pressure massage techniques using Firewalker Cream will alleviate all tiredness. Finish with the ultimate softness of Baobab Body Butter. Served with a glass of champagne. ",
 
     service21: "Firewalker Pedicure & Manicure with gel polish",
     service21Time : "80 mins",
-    service21Price : "80",
+    service21Price : "90",
     service21Description : "Indulge in this guilt-free pleasure. The Firewalker Pedicure & Manicure will leave your feet, legs, and hands feeling amazing. Start with an Herbal Mineral Bath, followed by a blend of Grapefruit Body Bar and Walnut Body Lufra Exfoliating. Top it off with the Revitalizing Ice Dancer leg massage and a hot towel wrap to elevate your pedicure experience. Along with our famous Sole Solution heel treatment, finger pressure massage techniques using Firewalker Cream will alleviate all tiredness. Finish with the ultimate softness of Baobab Body Butter. Served with a glass of champagne.",
 
     service22: "Essential Oils Pedicure & Manicure with normal polish",
@@ -1345,7 +1350,7 @@ const images = {
   }; 
   
   const serviceList6 = {
-    service1 : "Eyebrow Shape",
+    service1 : "Eyebrows Shape",
     service1Time : "15 mins",
     service1Price : "10",
     service1Description : "",
@@ -1367,7 +1372,7 @@ const images = {
   
     service5 : "Bikini line",
     service5Time : "20 mins",
-    service5Price : "30",
+    service5Price : "20",
     service5Description : "",
   
     service6 : "Brazilian waxing",
@@ -1405,12 +1410,11 @@ const images = {
     service12Price : "40",
     service12Description : "PATCH TEST 24 HOURS PRIOR",
   
-    service13 : "Eyebrow tinting ",
+    service13 : "Eyebrows tinting ",
     service13Time : "20 mins",
     service13Price : "12",
-    service13Description : "",
   
-    service14 : "Eyebrow THREADING",
+    service14 : "Eyebrows THREADING",
     service14Time : "15 mins",
     service14Price : "8",
     service14Description : "",
@@ -1452,7 +1456,7 @@ const images = {
     
     service22 : "Bikini waxing",
     service22Time : "20 mins",
-    service22Price : "35",
+    service22Price : "25",
     service22Description : "",
   };
 
