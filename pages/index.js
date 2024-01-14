@@ -59,9 +59,6 @@ export default function Home() {
           
           <meta name="google-site-verification" content={headerInput.metaGoogleSiteVerification} />
 
-          <meta name="google-site-verification" content="8PY9C4tyFxx-C0abTprXegCqjI9VHTxWzt57enQ1cNc" />
-
-
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
