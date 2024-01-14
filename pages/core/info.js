@@ -601,21 +601,21 @@ const pageContent = {
   section4Heading : "The best " + seoKeyword.seoKeyword1,
 
   // nhan-manh-2.js
-  section5Heading : "DON'T LET DOWN YOUR NAILS",
-  section5Description : "For a flawless manicure and pedicure, visit us at " + changedInfo.businessName + ". We offer a variety of polish and acrylic options to suit everyone's needs. 😸💅",
+  section5Heading : "UPGRADE YOUR NAILS WITH ELEGANCE",
+  section5Description : "Discover a world of nail elegance at " + changedInfo.businessName + ", where your individual style meets premium polish and acrylic choices. Enhance your nail aesthetics with our diverse options and let your nails shine with distinction! 💚💅✨",
 
   // nhan-manh-3.js
-  section6Heading : "OUR MISSION",
-  section6Description : "Going to the " + seoKeyword.seoKeyword1 + " is like a visit to your favorite person ever, who always makes you feel amazing no matter what. Visiting a " + seoKeyword.seoKeyword1 + " can have so many great side benefits: it can be a time to take care of yourself, a way to make you feel better about yourself, and an opportunity for you and your friends or family to chat with each other",
+  section6Heading : "CRAFTING MOMENTS OF WELLNESS AND CAMARADERIE",
+  section6Description : "Visit " + changedInfo.businessName + ", your premier " + seoKeyword.seoKeyword1 + ", where each visit is a blend of self-care and connection. Our " + seoKeyword.seoKeyword1 + " is designed to make you feel extraordinary, offering more than just aesthetic benefits. It's a haven for boosting confidence, a space for meaningful conversations, and an opportunity to elevate your well-being. Beyond a nail appointment, it's a moment carefully crafted to enhance your beauty and connection. ",
 
 
   // nhan-manh-4.js
-  section7Heading : "SERVICES",
-  section7Description : "Gorgeous nails are a great way to make a good first impression! Give your hands the love they deserve and call our " + seoKeyword.seoKeyword1 + " now for an appointment. We have a wide variety of colors for each occasion. We know what you want, and we’re here to give you amazing nails with our acrylic extensions and the best relaxation for your feet.",
+  section7Heading : "NAIL PERFECTION SERVICES",
+  section7Description : "Elevate your first impression with stunning nails! Contact our esteemed " + seoKeyword.seoKeyword1 + " to treat your hands to the care they deserve. We understand your desires, and our expertise is dedicated to delivering exquisite nails through our premium acrylic extensions. Unwind in ultimate relaxation as we pamper your feet with the finest care. Your journey to flawless nails begins here.",
 
   // nhan-manh-5.js
-  section8Heading : "ENJOYABLE & RELAXATION",
-  section8Description : "Getting your nails done should be enjoyable! At " + changedInfo.businessName +", our focus is to help you relax so you can enjoy the experience. It’s your day made for you. Our " + changedInfo.businessAddressLevel2  + " nail salon will make it fun and memorable for you with our wide selection of nail colors, our pink gowns, or by customizing your experience.⁣",
+  section8Heading : "A HAVEN OF RELAXATION AND JOYFUL NAIL CARE",
+  section8Description : "At our " + changedInfo.businessAddressLevel2  + " nail oasis, we prioritize creating an environment where you can truly savor the experience. This is your day, tailored exclusively for you. Our salon strives to make it both delightful and memorable, offering a diverse selection of nail colors, stylish pink gowns, and personalized touches to enhance your visit.⁣",
 
   carouselHeading : "One of the best nails salon in " + changedInfo.businessAddressLevel2 + " here to serve you",
 
@@ -637,26 +637,25 @@ const pageContent = {
   contentOurPolicyDescription5 : "The Gift Card and its balance are valid for a period of six months from the date of purchase. Your Gift Card will cease to be valid six months from the date of purchase and you will no longer be entitled to use it. ",
 
   //service-1.js
-  serviceCategory1Description : "The nail extensions that you can get at our " + seoKeyword.seoKeyword1 + " are so beautiful! They are easy to put on, and they last for two whole weeks on average.  Our " + seoKeyword.seoKeyword1 + " was also built to be very comfy for customers. We hope you come see us soon!",
+  serviceCategory1Description : "Transform your nails into works of art with our gorgeous nail extensions, available at our " + seoKeyword.seoKeyword1 + ". They are easy to put on, and they last for two whole weeks on average.  Our " + seoKeyword.seoKeyword1 + " was also built to be very comfy for customers. We eagerly anticipate the pleasure of pampering you soon!",
     
   //service-2.js
-  serviceCategory2Description : "Your nails deserve the same attention as your hair, makeup, and wardrobe. That’s why we have Gel-polish manicures at our " + seoKeyword.seoKeyword1 + ". Our nail technicians are masters of the art of manicure and pedicure to transform your hands and feet into flawless works of art.",
+  serviceCategory2Description : "Your nails deserve the spotlight, just like your hair, makeup, and wardrobe. That's why we have Gel-polish manicures at our " + seoKeyword.seoKeyword1 + ". Our nail technicians are masters of the art of manicure and pedicure to transform your hands and feet into flawless works of art.",
   
   //service-3.js
-  serviceCategory3Description : "Does a manicure or pedicure make you feel relaxed? The folks over at our " + seoKeyword.seoKeyword1 + " want you to feel pampered, and are here for your every nail and beauty need day or night. No matter your style, face challenge or nail desire, " + changedInfo.businessName + " has the perfect cure for you. Come in today for a manicure or pedicure.",
+  serviceCategory3Description : "Revitalize your senses with a soothing manicure or pedicure at our " + seoKeyword.seoKeyword1 + ". Our dedicated team is here to pamper you, addressing all your nail and beauty needs around the clock. Whether you have a specific style preference, face unique challenges, or have particular nail desires, " + changedInfo.businessName + "offers the perfect solution for you.",
   
   //service-4.js
   serviceCategory4Description : "When you’re treating yourself to a pampering appointment with us, you deserve good things! Our soothing & relaxing services have you feeling like a new person. Imagine feeling the heated water on your scalp while the shampoo scrubs away impurities. Imagine feeling more refreshed and relaxed than ever with our Indian head massage therapy.",
   
   //service-5.js
-  serviceCategory5Description : "Style your nails like celebrities! Learn about trending nail design and visit our salon for a manicure today! Smile to the world with bright and healthy-looking nails. " +
-  "Whatever design you want, we can do it for you. We are proud to be one of the " + seoKeyword.seoKeyword3 + " leading professional artists.",
+  serviceCategory5Description : "As leaders in the " + seoKeyword.seoKeyword3 + " scene, our professional artists are dedicated to delivering a nail design service that stands out. Whatever design captures your imagination, we're ready to bring it to reality with our skilled expertise.",
   
   //service-6.js
-  serviceCategory6Description : "We offer waxing service. Our estheticians use the latest techniques and products to ensure your hair removal experience is as smooth and gentle as possible.",
+  serviceCategory6Description : "Discover the luxury of our waxing service. Our skilled estheticians employ the latest techniques and premium products to ensure your hair removal experience is both smooth and gentle.",
 
   //service-7.js
-  serviceCategory7Description : "It’s time to pamper yourself and forget about the day’s stress 🌸. No question, we know that being healthy is the best beauty tip. Come have a facial with us and learn how to take care of your skin so you can look and feel beautiful everyday.",
+  serviceCategory7Description : "It's time to pamper yourself and forget about the day’s stress 🌸. No question, we know that being healthy is the best beauty tip. Come have a facial with us and learn how to take care of your skin so you can look and feel beautiful everyday.",
 
   locationHeading: "LOCATION",
   timeScheduleHeading: "OPENING HOURS",

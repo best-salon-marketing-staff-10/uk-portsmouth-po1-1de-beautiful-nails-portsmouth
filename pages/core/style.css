@@ -56,7 +56,8 @@
 */
   /*Chống copy nội dung trang, tải ảnh....
   */
-    
+
+  /*
   html{
     -youbkit-touch-callout: none; 
     -youbkit-user-select: none;   
@@ -64,9 +65,8 @@
     -ms-user-select: none;      
     user-select: none;   
   }
-    
-  /*
   */
+  
   img{
     display: block;
     max-width: 100%;
