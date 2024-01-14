@@ -30,12 +30,7 @@ export default function TabletContent(){
                 <div className="first-screen-block">
                     <img className="first-screen-block-anh" alt={imageAlt.tabletCarouselImage1Alt} src={images.tabletCarouselImage1} />
                     <div className="first-screen-block-bottom">
-                        <h1 className="first-screen-block-title">
-                            {pageContent.carouselHeading}
-                        </h1>
-                        <div className="button">
-                            <Button1 />
-                        </div>
+                        
                     </div>
                 </div>
                 <div id="t-section-1">

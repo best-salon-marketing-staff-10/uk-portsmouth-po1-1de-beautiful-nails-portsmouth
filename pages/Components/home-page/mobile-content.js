@@ -30,12 +30,7 @@ export default function MobileContent(){
                     <img className="first-screen-block-anh" alt={imageAlt.mobileCarouselImage1Alt} 
                             src={images.mobileCarouselImage1} />
                     <div className="first-screen-block-bottom">
-                        <h1 className="first-screen-block-title">
-                            {pageContent.carouselHeading}
-                        </h1>
-                        <div className="button">
-                            <Button1 />
-                        </div>
+                        
                     </div>
                 </div>
                 <div className="nhan-manh-1" id="m-section-1">
