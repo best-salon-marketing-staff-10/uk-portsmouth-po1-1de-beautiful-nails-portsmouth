@@ -135,8 +135,8 @@ const changedInfo = {
 
   // Các ảnh của tiệm
   ogImage:"https://greennailbar.web.app/images/desktop-nail-salon-happy-customer-1.jpg",
-  icon:"/icon.png",
-  businessLogo:"/logo.png",
+  icon:"/icon1.png",
+  businessLogo:"/logo1.png",
 }
 
 const menu = {
@@ -963,13 +963,13 @@ const images = {
   
     service24 : "BIAB buider gel Fullset",
     service24Time : "35 mins",
-    service24Price : "36",
-    service24Description : "",
+    service24Price : "35",
+    service24Description : "Builder in a Bottle (BIAB) gel is a revolutionary nail enhancement technique that delivers a flawless and long-lasting finish. The process begins with the careful preparation of your natural nails, ensuring a clean canvas for the application of the BIAB gel. Our technicians expertly sculpt and shape the gel to achieve the desired length and form, resulting in a set of nails that perfectly complements your hands.",
   
     service25 : "BIAB buider gel Infill",
     service25Time : "30 mins",
     service25Price : "30",
-    service25Description : "",
+    service25Description : "Our skilled technicians meticulously assess the condition of your current BIAB manicure, addressing any signs of wear or regrowth. They then delicately apply the BIAB gel to the regrowth area, ensuring a smooth and flawless transition from the natural nail to the existing gel overlay. This process not only maintains the aesthetic appeal of your manicure but also enhances the structural integrity of your nails.",
 
     service26 : "Long nails extra",
     service26Time : "",
@@ -1120,6 +1120,17 @@ const images = {
     service55Time : "35 mins",
     service55Price : "22",
     service55Description : "Take off then Manicure",
+
+    service56 : "Take off BIAB and Redone a Newset with manicure and gel colour",
+    service56Time : "1 hr 15 mins",
+    service56Price : "45",
+    service56Description : "",
+
+    service57 : "Take off BIAB and Redone a Newset with gel colour",
+    service57Time : "1 hr",
+    service57Price : "40",
+    service57Description : "",
+
     }; 
   
   const serviceList2 = {
@@ -1434,6 +1445,11 @@ const images = {
     service6Time : "",
     service6Price : "17",
     service6Description : "",
+
+    service7 : "Nail Design + French tip (From)",
+    service7Time : "",
+    service7Price : "10",
+    service7Description : "",
 
   }; 
   
