@@ -195,7 +195,7 @@ const seoInfo = {
 
   serviceKeyword1: "acrylic nails",
   serviceKeyword2: "nails extension",
-  serviceKeyword3: "shellac nails",
+  serviceKeyword3: "Shellac nails",
   serviceKeyword4: "manicure",
   serviceKeyword5: "pedicure",
 
@@ -825,9 +825,9 @@ const images = {
   //Ảnh customer review - customer-review.js
   cusReviewImage1 : "/images/nail-salon-customer-review-1.jpg",
   cusReviewImage2 : "/images/nail-salon-customer-review-2.jpg",
-  cusReviewImage3 : "/images/nail-salon-customer-review-3.jpg",
-  cusReviewImage4 : "/images/nail-salon-customer-review-4.jpg",
-  cusReviewImage5 : "/images/nail-salon-customer-review-5.jpg",
+  cusReviewImage3 : "/images/nail-salon-customer-review-3.JPG",
+  cusReviewImage4 : "/images/nail-salon-customer-review-4.JPG",
+  cusReviewImage5 : "/images/nail-salon-customer-review-5.JPG",
 
 
   //Ảnh Footer
@@ -846,53 +846,53 @@ const images = {
   const serviceList1 = {
     service1 : "Acrylic Fullset with normal nail polish",
     service1Time : "45 mins",
-    service1Price : "28",
+    service1Price : "30",
     service1Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
 
   
     service2 : "Acrylic Infill with normal nail polish",
     service2Time : "35 mins",
-    service2Price : "22",
+    service2Price : "24",
     service2Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
   
     service3 : "Acrylic Full Set with Shellac",
     service3Time : "1 hr",
-    service3Price : "38",
+    service3Price : "40",
     service3Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
   
     service4 : "Acrylic Infill with Shellac",
     service4Time : "45 mins",
-    service4Price : "32",
+    service4Price : "34",
     service4Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
     
     service5 : "Gel Powder Full Set with normal nail polish",
     service5Time : "45 mins",
-    service5Price : "32",
+    service5Price : "34",
     service5Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
   
     service6 : "Gel Powder Infill with normal nail polish",
     service6Time : "45 mins",
-    service6Price : "24",
+    service6Price : "26",
     service6Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
   
     service7 : "Full Set Pink & White",
     service7Time : "45 mins",
-    service7Price : "32",
+    service7Price : "34",
     service7Description : "Prepare to take all the compliments you’re lately getting. We’ve just added a new extension option for our clients: Pink and White! Chances are you know someone who loves the look, because it’s been trending for a while now. Now, with our " + seoKeyword.seoKeyword2 +" making it possible to infuse this unconventional color into your look – we’ve opened up an entire new world of possibilities.",
   
     service8 : "Infill Pink & White",
     service8Time : "45 mins",
-    service8Price : "26",
+    service8Price : "28",
     service8Description : "",
   
     service9 : "Full Set Ombre",
     service9Time : "45 mins",
-    service9Price : "40",
+    service9Price : "47",
     service9Description : "You could be the Queen of the Ombre nails, with the right technique. The technicians at our " + seoKeyword.seoKeyword2 + " will masterfully blend one color into another, creating a unique and beautiful look, and adding it to your finger tips.",
 
     service10 : "Infill Ombre",
     service10Time : "45 mins",
-    service10Price : "35",
+    service10Price : "38",
     service10Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
   
     service11 : "Full Set Colour Powder",
@@ -912,12 +912,12 @@ const images = {
   
     service14 : "Acrylic Fullset on Feet with normal nail polish",
     service14Time : "45 mins",
-    service14Price : "37",
+    service14Price : "39",
     service14Description : "An acrylic extension on your toes is just the thing to give yourself a little extra pampering. Whether you just want to do something new for your nails or you’ve been looking for an excuse to treat yo-self. This could be a great option for you",
   
     service15 : "Acrylic Infill on Feet with normal nail polish",
     service15Time : "45 mins",
-    service15Price : "32",
+    service15Price : "34",
     service15Description : "",
   
     service16 : "Acrylic Fullset on Feet with Shellac",
@@ -932,7 +932,7 @@ const images = {
   
     service18 : "Take off Powder",
     service18Time : "20 mins",
-    service18Price : "14",
+    service18Price : "16",
     service18Description : "Just take off",
   
     service19 : "Take off Acrylic and Redone a Newset",
@@ -948,7 +948,7 @@ const images = {
     service21 : "Take off Powder + Shellac",
     service21Time : "30 mins",
     service21Price : "30",
-    service21Description : "Take off then Shellac",
+    service21Description : "Take off then shellac",
   
     service22 : "Take off Powder + Manicure + Shellac",
     service22Time : "50 mins",
@@ -957,15 +957,15 @@ const images = {
   
     service23 : "Dipping Powder SNS Extention (WITH tips)",
     service23Time : "45 mins",
-    service23Price : "37",
+    service23Price : "39",
     service23Description : "SNS Dipping Powder creates a stronger polish finish which can help strengthen brittle or weak nails.",
   
-    service24 : "BIAB buider gel Fullset",
+    service24 : "BIAB builder gel Fullset",
     service24Time : "35 mins",
     service24Price : "35",
     service24Description : "Builder in a Bottle (BIAB) gel is a revolutionary nail enhancement technique that delivers a flawless and long-lasting finish. The process begins with the careful preparation of your natural nails, ensuring a clean canvas for the application of the BIAB gel. Our technicians expertly sculpt and shape the gel to achieve the desired length and form, resulting in a set of nails that perfectly complements your hands.",
   
-    service25 : "BIAB buider gel Infill",
+    service25 : "BIAB builder gel Infill",
     service25Time : "30 mins",
     service25Price : "30",
     service25Description : "Our skilled technicians meticulously assess the condition of your current BIAB manicure, addressing any signs of wear or regrowth. They then delicately apply the BIAB gel to the regrowth area, ensuring a smooth and flawless transition from the natural nail to the existing gel overlay. This process not only maintains the aesthetic appeal of your manicure but also enhances the structural integrity of your nails.",
@@ -982,12 +982,12 @@ const images = {
 
     service28 : "Single nails repair (From)",
     service28Time : "",
-    service28Price : "5",
+    service28Price : "7",
     service28Description : "",
 
     service29 : "Take off Acrylic and Redone Acrylic Fullset with normal nail polish",
     service29Time : "1 hr",
-    service29Price : "38",
+    service29Price : "40",
     service29Description : "",
 
     service30 : "Take off Acrylic and Redone Acrylic Fullset with Shellac",
@@ -997,7 +997,7 @@ const images = {
 
     service31 : "Take off Ombre and Redone Ombre Fullset",
     service31Time : "1 hr",
-    service31Price : "50",
+    service31Price : "52",
     service31Description : "",
 
     service32 : "Dipping Powder SNS infill",
@@ -1007,12 +1007,12 @@ const images = {
 
     service33 : "Take off and Redone Dipping Powder SNS (WITH tips)",
     service33Time : "1 hr",
-    service33Price : "42",
+    service33Price : "44",
     service33Description : "SNS Dipping Powder creates a stronger polish finish which can help strengthen brittle or weak nails.",
 
     service34 : "Take off and Redone Acrylic Fullset on Feet with normal nail polish",
     service34Time : "1 hr",
-    service34Price : "47",
+    service34Price : "48",
     service34Description : "",
 
     service35 : "Take off and Redone Acrylic Fullset on Feet with Shellac",
@@ -1047,7 +1047,7 @@ const images = {
     
     service41 : "Take off Pink & White and Redone a Newset",
     service41Time : "60 mins",
-    service41Price : "42",
+    service41Price : "44",
     service41Description : "",
 
     service42 : " ",
@@ -1087,111 +1087,165 @@ const images = {
 
     service49 : "Dipping Powder SNS Extention On Natural Nails",
     service49Time : "45 mins",
-    service49Price : "32",
+    service49Price : "34",
     service49Description : "SNS Dipping Powder creates a stronger polish finish which can help strengthen brittle or weak nails.",
 
     service50 : "Take off and Redone Dipping Powder SNS On Natural Nails",
     service50Time : "1 hr",
-    service50Price : "37",
+    service50Price : "39",
     service50Description : "SNS Dipping Powder creates a stronger polish finish which can help strengthen brittle or weak nails.",
 
     service51 : "Take off Gel Powder and Redone a Newset",
     service51Time : "1 hr",
-    service51Price : "42",
+    service51Price : "44",
     service51Description : "",
 
     service52 : "Gel Powder Full Set with Shellac",
     service52Time : "45 mins",
-    service52Price : "42",
+    service52Price : "44",
     service52Description : "Our " + seoKeyword.seoKeyword7 + " service help your hands shine by adding a little length to your natural nail. If you're ready for flawless, fierce nails, let the nail technicians at this salon lend their talent and artistry to your tips.",
   
     service53 : "Gel Powder Infill with Shellac",
     service53Time : "45 mins",
-    service53Price : "34",
+    service53Price : "36",
     service53Description : "Nail refills are recommended around 3 to 4 weeks from the date of the initial application. A quick nail refill is the best way to make the most of your nail extensions.",
 
     service54 : "One Big Toe Acrylic",
     service54Time : "",
-    service54Price : "7",
+    service54Price : "9",
     service54Description : "",
 
     service55 : "Take off Powder + Manicure",
     service55Time : "35 mins",
-    service55Price : "22",
+    service55Price : "24",
     service55Description : "Take off then Manicure",
 
-    service56 : "Take off BIAB and Redone a Newset with manicure and gel colour",
+    service56 : "Take off BIAB + Manicure with French tip + Shellac",
     service56Time : "1 hr 15 mins",
-    service56Price : "45",
+    service56Price : "50",
     service56Description : "",
 
     service57 : "Take off BIAB and Redone a Newset with gel colour",
     service57Time : "1 hr",
-    service57Price : "40",
+    service57Price : "45",
     service57Description : "",
+
+    service58: "BIAB builder gel on natural nails with gel colour",
+    service58Time: "60 mins",
+    service58Price: "40",
+    service58Description: "This service will leave your nails looking stunning and fabulous, making you feel confident and beautiful. The BIAB builder gel creates a long-lasting and durable finish for your nails, perfect for those who desire low maintenance and chip-free nails. Our skilled technicians will carefully apply the builder gel to create the look you desire, leaving you with salon-quality nails that will last for weeks. So, why not treat yourself and embrace the feeling of self-love by booking a BIAB Builder Gel Fullset today!",
+
+    service59: "BIAB builder gel Fullset + Manicure with French tip",
+    service59Time: "60 mins",
+    service59Price: "45",
+    service59Description: "",
+
+    service60: "Take off Powder + Manicure & Pedicure",
+    service60Time: "1 hr 20 mins",
+    service60Price: "75",
+    service60Description: "",
+
+    service61: "Take off Powder + Pedicure Shellac + French tip",
+    service61Time: "60 mins",
+    service61Price: "50",
+    service61Description: "",
+
+    service62: "Take off Powder + Manicure + Dipping Powder On Natural Nail",
+    service62Time: "60 mins",
+    service62Price: "44",
+    service62Description: "",
+
+    service63: "Dipping Powder SNS Extention (with tips) + Manicure + French tip",
+    service63Time: "1 hr 15 mins",
+    service63Price: "50",
+    service63Description: ""
 
     }; 
   
   const serviceList2 = {
     service1 : "Nail shape with Shellac nails on hand",
     service1Time : "30 mins",
-    service1Price : "24",
+    service1Price : "26",
     service1Description : "",
   
     service2 : "Nail shape with Shellac nails on feet",
     service2Time : "30 mins",
-    service2Price : "28",
+    service2Price : "30",
     service2Description : "",
   
     service3 : "Manicure Shellac",
     service3Time : "40 mins",
-    service3Price : "28",
+    service3Price : "30",
     service3Description : "Manicures are a difficult art to master. No matter how great they look when finished, they seem to always chip within days, if not in a matter of hours. Enter the Gel nail manicure - a groundbreaking technique that uses gel polishes that get 'cured' under UV lights. The result? Shiny, strong nails for weeks and no drying time!",
   
     service4 : "Pedicure Shellac",
     service4Time : "40 mins",
-    service4Price : "40",
+    service4Price : "42",
     service4Description : "Please bring Flip Flops/Sandals. Highly recommended with Gel Colour. Last longer and less likely to chip! Fries instantly so you don't have to worry about smudging it.",
   
     service5 : "Gel Polish Manicure & Gel Polish Pedicure",
     service5Time : "1 hr 20 mins",
-    service5Price : "66",
+    service5Price : "68",
     service5Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish. Shellac pedicure and manicure lasts up to two weeks, it's well worth the wait.",
-  
-    service6 : "Take off shellac and Redone Gel Polish on Hand",
+
+    service6 : "Take off Shellac and Redone Gel Polish on Hand",
     service6Time : "30 mins",
-    service6Price : "25",
+    service6Price : "30",
     service6Description : "",
   
-    service7 : "Take off shellac and Redone Gel Polish on Feet",
+    service7 : "Take off Shellac and Redone Gel Polish on Feet",
     service7Time : "40 mins",
     service7Price : "25",
     service7Description : "",
   
-    service8 : "Take off shellac",
+    service8 : "Take off Shellac",
     service8Time : "20 mins",
-    service8Price : "12",
+    service8Price : "14",
     service8Description : "Just take off shellac",
 
-    service9 : "Take off shellac and Redone Normal Polish on Hand",
+    service9 : "Take off Shellac and Redone Normal Polish on Hand",
     service9Time : "30 mins",
     service9Price : "20",
     service9Description : "",
 
-    service10 : "Take off shellac and Redone Normal Polish on Feet",
+    service10 : "Take off Shellac and Redone Normal Polish on Feet",
     service10Time : "40 mins",
     service10Price : "20",
     service10Description : "",
 
-    service22 : "Take off shellac + Manicure",
+    service22 : "Take off Shellac + Manicure",
     service22Time : "35 mins",
-    service22Price : "20",
+    service22Price : "22",
     service22Description : "Take off shellac then do Manicure",
 
     service23 : "Gel Polish Manicure & Normal Pedicure",
     service23Time : "1 hr 10 mins",
-    service23Price : "56",
+    service23Price : "58",
     service235Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
+
+    service24: "Pedicure Shellac + French tip",
+    service24Time: "50 mins",
+    service24Price: "47",
+    service24Description: "",
+
+    service25: "Take off Shellac + Manicure Shellac",
+    service25Time: "50 mins",
+    service25Price: "35",
+    service25Description: "",
+
+    service26: "Take off Shellac + Manicure Shellac + French tip",
+    service26Time: "60 mins",
+    service26Price: "40",
+    service26Description: "",
+
+    service27: "Take off Shellac + Pedicure Shellac",
+    service27Time: "60 mins",
+    service27Price: "47",
+    service27Description: "",
+
+
+
+
 
   };
   
@@ -1223,12 +1277,12 @@ const images = {
   
     service6 : "Shape & paint on hands",
     service6Time : "15 mins",
-    service6Price : "12",
+    service6Price : "14",
     service6Description : "Want to show off your individuality? Come to " + changedInfo.businessName + " to paint on your nails with designs from experts at our " + seoKeyword.seoKeyword1,
   
     service7 : "Shape & paint on toes",
     service7Time : "15 mins",
-    service7Price : "14",
+    service7Price : "16",
     service7Description : "Fancy something a little different? Head into our " + seoKeyword.seoKeyword2 + " for new ways to choose the perfect colour for your toes. Pick from a range of colours or go for an intricate design on your toe nails.",
 
     service8 : "Smoothing Pedicure with normal polish",
@@ -1353,37 +1407,37 @@ const images = {
 
     service32 : "Manicure",
     service32Time : "20 mins",
-    service32Price : "17",
+    service32Price : "19",
     service32Description : "A classic manicure is all you need to take great care of your hands and nails. Includes massage, cuticle, shaping, file, polish and moisturiser.",
   
     service33 : "Pedicure",
     service33Time : "30 mins",
-    service33Price : "30",
+    service33Price : "32",
     service33Description : "A classic pedicure is all you need to take great care of your feet and nails. Includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
 
     service34 : "Shape & paint on both hands and toes",
     service34Time : "30 mins",
-    service34Price : "22",
+    service34Price : "24",
     service34Description : "",
 
     service35 : "Regular Manicure & Regular Pedicure",
     service35Time : "1 hr",
-    service35Price : "42",
-    service35Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
-
-    service35 : "Regular Manicure & Regular Pedicure with normal polish",
-    service35Time : "1 hr 20 mins",
     service35Price : "44",
     service35Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
 
+    service38 : "Regular Manicure & Regular Pedicure with normal polish",
+    service38Time : "1 hr 20 mins",
+    service38Price : "46",
+    service38Description : "Manicure includes massage, cuticle, shaping, file, polish and moisturiser. Pedicure includes scrub, dead skin, cuticle, massage, moisturise, shape, file and polish.",
+
     service36 : "Paraffin manicure",
     service36Time : "40 mins",
-    service36Price : "27",
+    service36Price : "29",
     service36Description : "Paraffin manicure is a luxurious treatment that will leave your hands feeling soft and smooth. Our experienced nail technicians will start by soaking your hands in a warm paraffin wax bath. This will help to soften your cuticles and nails, making them easier to shape and polish. Once your hands are soft, our technicians will apply a moisturizing cream and massage your hands. This will help to improve circulation and reduce stress. Finally, your nails will be polished to perfection.",
 
     service37 : "Paraffin pedicure",
     service37Time : "50 mins",
-    service37Price : "40",
+    service37Price : "42",
     service37Description : "Paraffin pedicure is a luxurious treatment that will leave your feet feeling soft and smooth. Here's what you can expect from our paraffin pedicure: Soft, smooth feet, Improved cuticles, Easier nail shaping and polishing, Reduced calluses, Increased circulation, Reduced stress. Our paraffin pedicures are a great way to pamper yourself and give your feet some TLC (tender loving care). They are also a popular choice for people with dry, cracked feet or calluses.",
 
   };
@@ -1417,12 +1471,12 @@ const images = {
   const serviceList5 = {
     service1 : "Nail Design (from)",
     service1Time : "",
-    service1Price : "7",
+    service1Price : "9",
     service1Description : "The best looking nails are made with the best nail care services from our " + seoKeyword.seoKeyword1 +". Caring for your surface is the key to keeping it looking good for as long as possible. So come on over and treat yourself today.⁣",
   
     service2 : "Diamond Crystal x10 (from)",
     service2Time : "",
-    service2Price : "5",
+    service2Price : "7",
     service2Description : "",
 
     service3 : "3D nail art (from)",
@@ -1437,12 +1491,12 @@ const images = {
 
     service5 : "French tip",
     service5Time : "",
-    service5Price : "5",
+    service5Price : "7",
     service5Description : "",
 
     service6 : "Massage 15 minutes (Hands, feet, head, shoulder)",
     service6Time : "",
-    service6Price : "17",
+    service6Price : "19",
     service6Description : "",
 
     service7 : "Nail Design + French tip (From)",
@@ -1455,7 +1509,7 @@ const images = {
   const serviceList6 = {
     service1 : "Eyebrows",
     service1Time : "15 mins",
-    service1Price : "9",
+    service1Price : "11",
     service1Description : "",
   
     service2 : "Lip waxing",
@@ -1465,7 +1519,7 @@ const images = {
   
     service3 : "Chin waxing",
     service3Time : "15 mins",
-    service3Price : "7",
+    service3Price : "9",
     service3Description : "",
   
     service4 : "Under arm waxing",
@@ -1515,7 +1569,7 @@ const images = {
   
     service13 : "Eyebrows tinting ",
     service13Time : "20 mins",
-    service13Price : "12",
+    service13Price : "16",
   
     service14 : "Eyebrows THREADING",
     service14Time : "15 mins",
@@ -1564,7 +1618,7 @@ const images = {
 
     service23 : "Upper Lip waxing",
     service23Time : "15 mins",
-    service23Price : "7",
+    service23Price : "9",
     service23Description : "",
   };
 
