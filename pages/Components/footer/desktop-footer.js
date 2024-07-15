@@ -13,7 +13,7 @@ import { pageContent } from '/pages/core/info';
 
 
 
-export default function DesktopFooter(){
+export default function DesktopFooter() {
     return <>
         <Head>
         </Head>
@@ -35,7 +35,7 @@ export default function DesktopFooter(){
 
                         </Link>
                     </h2>
-                
+
                     <div className="footer-navigation-item">
                         <h2 className="footer-navigation-item-services">
                             <Link href={menu.linkToMainMenu4} className="footer-navigation-item">
@@ -149,11 +149,11 @@ export default function DesktopFooter(){
                                         </a>
                                     </div>
                                 </div>
-                            </Link>  
-                            <Link href={changedInfo.linkToMap} legacyBehavior>  
+                            </Link>
+                            <Link href={changedInfo.linkToMap} legacyBehavior>
                                 <div className="footer-navigation-item-details-2">
                                     <div>
-                                        <img className="footer-image" alt={imageAlt.footerImageMapPointerIconAlt}  src={images.footerImageMapPointerIcon} />
+                                        <img className="footer-image" alt={imageAlt.footerImageMapPointerIconAlt} src={images.footerImageMapPointerIcon} />
                                     </div>
                                     <div>
                                         <a className="footer-navigation-item-details">
@@ -162,10 +162,30 @@ export default function DesktopFooter(){
                                     </div>
                                 </div>
                             </Link>
-                        </div>       
+                            <div className="facebook-instagram">
+                                <div className="facebook">
+                                    <a href="https://www.facebook.com/beautifulnailsportsmouthpo11de" >
+                                        <div className="footer-navigation-item-details-2">
+                                            <div>
+                                                <img className="facebook-image-2" src={images.iconFacebook} />
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div className="instagram">
+                                    <a href="https://www.instagram.com/beautifulnails_portsmouth" >
+                                        <div className="footer-navigation-item-details-2">
+                                            <div>
+                                                <img className="instagram-image-3" src={images.iconInstagram} />
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div> 
+            </div>
             <div className="footer-navigation-item">
                 <iframe src={changedInfo.iframeMapLink} width="1920" height="500" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -174,9 +194,9 @@ export default function DesktopFooter(){
                     href={pageContent.copyrightWebsiteLink}
                     className="footer-copyright"
                     rel="dofollow">
-                    
-                        © Copyright and Powered by Best Salon Marketing
-                    
+
+                    © Copyright and Powered by Best Salon Marketing
+
                 </Link>
             </div>
         </div>

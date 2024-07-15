@@ -10,7 +10,7 @@ import { changedInfo } from '/pages/core/info';
 import { images } from '/pages/core/info';
 import { pageContent } from '/pages/core/info';
 
-export default function MobileFooter(){
+export default function MobileFooter() {
     return <>
         <Head>
         </Head>
@@ -140,11 +140,11 @@ export default function MobileFooter(){
                                     </a>
                                 </div>
                             </div>
-                        </Link>  
-                        <Link href={changedInfo.linkToMap} legacyBehavior>  
+                        </Link>
+                        <Link href={changedInfo.linkToMap} legacyBehavior>
                             <div className="footer-navigation-item-details-2">
                                 <div>
-                                    <img className="footer-image" alt={imageAlt.footerImageMapPointerIconAlt}  src={images.footerImageMapPointerIcon} />
+                                    <img className="footer-image" alt={imageAlt.footerImageMapPointerIconAlt} src={images.footerImageMapPointerIcon} />
                                 </div>
                                 <div>
                                     <a className="footer-navigation-item-details">
@@ -153,8 +153,27 @@ export default function MobileFooter(){
                                 </div>
                             </div>
                         </Link>
+                        <div className="facebook-instagram">
+                            <div className="facebook">
+                                <a href="https://www.facebook.com/beautifulnailsportsmouthpo11de" >
+                                    <div className="footer-navigation-item-details-2">
+                                        <div>
+                                            <img className="facebook-image-2" src={images.iconFacebook} />
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className="instagram">
+                                <a href="https://www.instagram.com/beautifulnails_portsmouth" >
+                                    <div className="footer-navigation-item-details-2">
+                                        <div>
+                                            <img className="instagram-image-3" src={images.iconInstagram} />
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                     
                     <div className="footer-navigation-item">
                         <iframe src={changedInfo.iframeMapLink} width="480" height="300" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>

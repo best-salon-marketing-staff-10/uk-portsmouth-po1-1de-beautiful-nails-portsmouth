@@ -10,7 +10,7 @@ import { changedInfo } from '/pages/core/info';
 import { images } from '/pages/core/info';
 import { pageContent } from '/pages/core/info';
 
-export default function TabletFooter(){
+export default function TabletFooter() {
 
     return <>
         <Head>
@@ -33,7 +33,7 @@ export default function TabletFooter(){
 
                         </Link>
                     </h2>
-                
+
                     <div className="footer-navigation-item">
                         <h2 className="footer-navigation-item-services">
                             <Link href={menu.linkToMainMenu4} className="footer-navigation-item">
@@ -79,8 +79,8 @@ export default function TabletFooter(){
 
                                 </Link>
                             </h3>
-                            <h3 
-                            className="footer-navigation-item-detail-services">
+                            <h3
+                                className="footer-navigation-item-detail-services">
                                 <Link
                                     href={serviceCategory.tabletLinkToServiceCategory5}
                                     className="services-list-5">
@@ -141,7 +141,7 @@ export default function TabletFooter(){
                             </Link>
                         </h2>
                         <div className="footer-navigation-item-details">
-                        <Link href={processedInfo.callBusiness} legacyBehavior>
+                            <Link href={processedInfo.callBusiness} legacyBehavior>
                                 <div className="footer-navigation-item-details-1">
                                     <div>
                                         <img className="footer-image" alt={imageAlt.footerImagePhoneIconAlt} src={images.footerImagePhoneIcon} />
@@ -152,11 +152,11 @@ export default function TabletFooter(){
                                         </a>
                                     </div>
                                 </div>
-                            </Link>  
-                            <Link href={changedInfo.linkToMap} legacyBehavior>  
+                            </Link>
+                            <Link href={changedInfo.linkToMap} legacyBehavior>
                                 <div className="footer-navigation-item-details-2">
                                     <div>
-                                        <img className="footer-image" alt={imageAlt.footerImageMapPointerIconAlt}  src={images.footerImageMapPointerIcon} />
+                                        <img className="footer-image" alt={imageAlt.footerImageMapPointerIconAlt} src={images.footerImageMapPointerIcon} />
                                     </div>
                                     <div>
                                         <a className="footer-navigation-item-details">
@@ -165,7 +165,27 @@ export default function TabletFooter(){
                                     </div>
                                 </div>
                             </Link>
-                        </div>       
+                            <div className="facebook-instagram">
+                                <div className="facebook">
+                                    <a href="https://www.facebook.com/beautifulnailsportsmouthpo11de" >
+                                        <div className="footer-navigation-item-details-2">
+                                            <div>
+                                                <img className="facebook-image-2" src={images.iconFacebook} />
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div className="instagram">
+                                    <a href="https://www.instagram.com/beautifulnails_portsmouth" >
+                                        <div className="footer-navigation-item-details-2">
+                                            <div>
+                                                <img className="instagram-image-3" src={images.iconInstagram} />
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -173,13 +193,8 @@ export default function TabletFooter(){
                 <iframe src={changedInfo.iframeMapLink} width="1024" height="500" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div className="footer-copyright">
-                <Link
-                    href={pageContent.copyrightWebsiteLink}
-                    className="footer-copyright"
-                    rel="dofollow">
-                    
-                        © Copyright and Powered by Best Salon Marketing
-                    
+                <Link href={pageContent.copyrightWebsiteLink} className="footer-copyright" rel="dofollow">
+                    © Copyright and Powered by Best Salon Marketing
                 </Link>
             </div>
         </div>
