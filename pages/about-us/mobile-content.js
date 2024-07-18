@@ -13,9 +13,9 @@ import { images } from '/pages/core/info';
 import { imageAlt } from '/pages/core/info';
 
 
-export default function MobileContent(){
+export default function MobileContent() {
     //Cần biến đoạn này thành component cho ngon lành, component carousel hay gì đó tùy có thể ko cần carousel
-    return(
+    return (
         <>
             <div className="mobile-about-us">
                 <div>
@@ -35,9 +35,8 @@ export default function MobileContent(){
                                 <img className="d-block w-100" alt={imageAlt.mobileAboutUsImage3Alt} src={images.mobileAboutUsImage3} />
                             </div>
                         </Carousel.Item>
-                    </Carousel> 
+                    </Carousel>
                 </div>
-
                 <div className="mobile-about-us-our-story">
                     <OurStory />
                 </div>
@@ -58,7 +57,6 @@ export default function MobileContent(){
                         <TimeSchedule />
                     </div>
                 </div>
-                
             </div>
         </>
     )

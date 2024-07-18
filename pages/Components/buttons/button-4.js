@@ -2,7 +2,7 @@ import Link from 'next/link';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { button } from '/pages/core/info';
 
-export default function Button4(){
+export default function Button4() {
     const content = "Find us";
     return <>
         <div className="button-4">

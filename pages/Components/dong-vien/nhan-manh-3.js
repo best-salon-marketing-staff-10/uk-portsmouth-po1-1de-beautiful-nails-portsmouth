@@ -2,8 +2,8 @@ import { imageAlt } from '/pages/core/info';
 import { pageContent } from '/pages/core/info';
 import { images } from '/pages/core/info';
 
-export default function NhanManh3(){
-    return(
+export default function NhanManh3() {
+    return (
         <>
             <div className="nhan-manh-3-background">
                 <div className="nhan-manh-content">

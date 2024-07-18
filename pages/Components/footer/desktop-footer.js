@@ -167,7 +167,7 @@ export default function DesktopFooter() {
                                     <a href="https://www.facebook.com/beautifulnailsportsmouthpo11de" >
                                         <div className="footer-navigation-item-details-2">
                                             <div>
-                                                <img className="facebook-image-2" src={images.iconFacebook} />
+                                                <img className="facebook-image" src={images.iconFacebook} />
                                             </div>
                                         </div>
                                     </a>
@@ -176,7 +176,7 @@ export default function DesktopFooter() {
                                     <a href="https://www.instagram.com/beautifulnails_portsmouth" >
                                         <div className="footer-navigation-item-details-2">
                                             <div>
-                                                <img className="instagram-image-3" src={images.iconInstagram} />
+                                                <img className="instagram-image" src={images.iconInstagram} />
                                             </div>
                                         </div>
                                     </a>
@@ -190,15 +190,10 @@ export default function DesktopFooter() {
                 <iframe src={changedInfo.iframeMapLink} width="1920" height="500" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div className="footer-copyright">
-                <Link
-                    href={pageContent.copyrightWebsiteLink}
-                    className="footer-copyright"
-                    rel="dofollow">
-
+                <Link href={pageContent.copyrightWebsiteLink} className="footer-copyright" rel="dofollow">
                     © Copyright and Powered by Best Salon Marketing
-
                 </Link>
             </div>
         </div>
-    </>;
+    </>
 }

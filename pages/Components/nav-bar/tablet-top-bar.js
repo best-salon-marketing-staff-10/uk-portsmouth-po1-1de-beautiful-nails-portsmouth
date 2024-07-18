@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { menu } from '/pages/core/info';
 import { processedInfo } from '/pages/core/info';
 
-export default function TabletTopBar(){
+export default function TabletTopBar() {
     return <>
         <div className="top-bar">
             <Link href={processedInfo.callBusiness} legacyBehavior>

@@ -2,19 +2,19 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button3 from '/pages/Components/buttons/button-3.js';
 import { processedInfo } from '/pages/core/info';
 
-export default function Offers(){
-    return(
+export default function Offers() {
+    return (
         <>
             <div className="offers">
                 <div className="offers-content-text">
-                        <div className="offers-title">
-                            <h1 className="title-1">
-                                {processedInfo.offerTitle}
-                            </h1>
-                            <div className="offers-divider">
-                                <NavDropdown.Divider /> 
-                            </div>
+                    <div className="offers-title">
+                        <h1 className="title-1">
+                            {processedInfo.offerTitle}
+                        </h1>
+                        <div className="offers-divider">
+                            <NavDropdown.Divider />
                         </div>
+                    </div>
                     <div className="offers-description">
                         <div>
                             {processedInfo.offerDescription}
@@ -35,7 +35,6 @@ export default function Offers(){
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
                     <div className="button">
                         <Button3 />
@@ -43,5 +42,5 @@ export default function Offers(){
                 </div>
             </div>
         </>
-    );
+    )
 }

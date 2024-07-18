@@ -2,12 +2,11 @@ import Link from 'next/link';
 import { processedInfo } from '/pages/core/info';
 import { menu } from '/pages/core/info';
 
-export default function desktopTopBar(){
+export default function desktopTopBar() {
 
     return <>
         <div className="top-bar-wrapper">
             <div>
-
             </div>
             <div className="top-bar">
                 <Link href={processedInfo.callBusiness} legacyBehavior>
@@ -15,14 +14,14 @@ export default function desktopTopBar(){
                         CALL NOW
                     </div>
                 </Link>
-                    <div className="top-bar-item-spacer">
-                    </div>
+                <div className="top-bar-item-spacer">
+                </div>
                 <Link href={menu.linkToMainMenu3} legacyBehavior>
                     <div className="top-bar-item-right">
                         BOOK NOW
                     </div>
                 </Link>
-            </div>  
+            </div>
         </div>
-    </>;
+    </>
 }

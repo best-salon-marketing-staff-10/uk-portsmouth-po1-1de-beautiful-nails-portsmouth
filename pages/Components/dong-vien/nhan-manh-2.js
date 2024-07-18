@@ -2,8 +2,8 @@ import { imageAlt } from '/pages/core/info';
 import { pageContent } from '/pages/core/info';
 import { images } from '/pages/core/info';
 
-export default function NhanManh2(){
-    return(
+export default function NhanManh2() {
+    return (
         <>
             <div className="nhan-manh-2-background">
                 <div className="nhan-manh-content">
@@ -21,6 +21,5 @@ export default function NhanManh2(){
                 </div>
             </div>
         </>
-        
     )
 }

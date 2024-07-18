@@ -21,16 +21,14 @@ import { imageAlt } from '/pages/core/info';
 import { pageContent } from '/pages/core/info';
 import { images } from '/pages/core/info';
 
-export default function DesktopContent(){
-    return(
+export default function DesktopContent() {
+    return (
         <>
             <div className="desktop-content">
-
                 <div className="first-screen-block">
                     <img className="first-screen-block-anh" alt={imageAlt.desktopCarouselImage1Alt} src={images.desktopCarouselImage1} />
                     <div className="first-screen-block-bottom">
-                       
-                    </div>              
+                    </div>
                 </div>
                 <div className="nhan-manh-1" id="d-section-1">
                     <NhanManh1 />
@@ -95,7 +93,6 @@ export default function DesktopContent(){
                     </div>
                 </div>
             </div>
-
         </>
     )
 }

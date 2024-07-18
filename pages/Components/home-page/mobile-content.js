@@ -22,15 +22,14 @@ import { imageAlt } from '/pages/core/info';
 import { pageContent } from '/pages/core/info';
 import { images } from '/pages/core/info';
 
-export default function MobileContent(){
-    return(
+export default function MobileContent() {
+    return (
         <>
             <div className="mobile-content">
                 <div className="first-screen-block">
-                    <img className="first-screen-block-anh" alt={imageAlt.mobileCarouselImage1Alt} 
-                            src={images.mobileCarouselImage1} />
+                    <img className="first-screen-block-anh" alt={imageAlt.mobileCarouselImage1Alt}
+                        src={images.mobileCarouselImage1} />
                     <div className="first-screen-block-bottom">
-                        
                     </div>
                 </div>
                 <div className="nhan-manh-1" id="m-section-1">
@@ -56,7 +55,6 @@ export default function MobileContent(){
                         <TimeSchedule />
                     </div>
                 </div>
-                
                 <div className="homepage-mobile-services">
                     <div className="services-list-1">
                         <div className="service-container">
@@ -95,7 +93,6 @@ export default function MobileContent(){
                     </div>
                 </div>
             </div>
-            
         </>
     )
 }

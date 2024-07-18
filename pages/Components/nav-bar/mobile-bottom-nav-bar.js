@@ -5,54 +5,44 @@ import { images } from '/pages/core/info';
 import { menu } from '/pages/core/info';
 
 
-export default function MobileBottomNavBar(){
+export default function MobileBottomNavBar() {
     return <>
-        
+
         <div className="mobile-bottom-nav-bar-section-bottom-nav-bar">
             <Navbar expand={false} bg="white" variant="d" fixed="bottom">
                 <div className="mobile-bottom-nav-bar-section">
-                    <Link
-                        href={images.BottomNavButton1LinkTo}
-                        className="mobile-bottom-nav-bar-link-a">
-
+                    <Link href={images.BottomNavButton1LinkTo} className="mobile-bottom-nav-bar-link-a">
                         <div className="mobile-bottom-nav-bar-home">
                             <div>
                                 <img className="mobile-bottom-nav-bar-img" alt={images.BottomNavButton1IconAlt} src={images.BottomNavButton1Icon} />
                             </div>
                             <div className="mobile-bottom-nav-bar-section-content">
                                 {images.BottomNavButton1Content}
-                            </div>   
+                            </div>
                         </div>
-
                     </Link>
-                    <Link
-                        href={images.BottomNavButton2LinkTo}
-                        className="mobile-bottom-nav-bar-link-a">
-
+                    <Link href={images.BottomNavButton2LinkTo} className="mobile-bottom-nav-bar-link-a">
                         <div className="mobile-bottom-nav-bar-services">
                             <div>
                                 <img className="mobile-bottom-nav-bar-img" alt={images.BottomNavButton2IconAlt} src={images.BottomNavButton2Icon} />
                             </div>
-                            <div className="mobile-bottom-nav-bar-section-content">  
+                            <div className="mobile-bottom-nav-bar-section-content">
                                 {images.BottomNavButton2Content}
-                            </div> 
+                            </div>
                         </div>
-
                     </Link>
                     <Link href={menu.linkToMainMenu3} className="mobile-bottom-nav-bar-link-a">
-
                         <div className="mobile-bottom-nav-bar-contact-us">
                             <div>
                                 <img className="mobile-bottom-nav-bar-img" alt={images.BottomNavButton3IconAlt} src={images.BottomNavButton3Icon} />
                             </div>
                             <div className="mobile-bottom-nav-bar-section-content">
-                                Appointment&nbsp;now 
-                            </div> 
+                                Appointment&nbsp;now
+                            </div>
                         </div>
-
                     </Link>
-                </div>    
+                </div>
             </Navbar>
         </div>
-    </>;
+    </>
 }

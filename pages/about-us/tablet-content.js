@@ -13,9 +13,9 @@ import { images } from '/pages/core/info';
 import { imageAlt } from '/pages/core/info';
 
 
-export default function TabletContent(){
-    
-    return(
+export default function TabletContent() {
+
+    return (
         <>
             <div className="tablet-about-us">
                 <div>
@@ -35,14 +35,13 @@ export default function TabletContent(){
                                 <img className="d-block w-100" alt={imageAlt.tabletAboutUsImage3Alt} src={images.tabletAboutUsImage3} />
                             </div>
                         </Carousel.Item>
-                    </Carousel> 
+                    </Carousel>
                 </div>
-
                 <div className="tablet-about-us-our-story">
                     <OurStory />
                 </div>
                 <div className="button">
-                        <Button2 />
+                    <Button2 />
                 </div>
                 <div className="tablet-about-us-dong-vien">
                     <DongVien1 />

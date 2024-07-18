@@ -144,7 +144,7 @@ export default function TabletNavBar() {
                                             <a href="https://www.facebook.com/beautifulnailsportsmouthpo11de" >
                                                 <div className="footer-navigation-item-details-2">
                                                     <div>
-                                                        <img className="facebook-image-2" src={images.iconFacebook} />
+                                                        <img className="nav-bar-facebook-image" src={images.iconFacebook} />
                                                     </div>
                                                 </div>
                                             </a>
@@ -153,7 +153,7 @@ export default function TabletNavBar() {
                                             <a href="https://www.instagram.com/beautifulnails_portsmouth" >
                                                 <div className="footer-navigation-item-details-2">
                                                     <div>
-                                                        <img className="instagram-image-3" src={images.iconInstagram} />
+                                                        <img className="nav-bar-instagram-image" src={images.iconInstagram} />
                                                     </div>
                                                 </div>
                                             </a>
@@ -173,5 +173,5 @@ export default function TabletNavBar() {
         <style jsx>{`
             
         `}</style>
-    </>;
+    </>
 }

@@ -103,12 +103,8 @@ export default function DesktopNavBar() {
                                             </div>
                                             <div className="nav-bar-services-sub-category-details">
                                                 <h3 className="services-list-6">
-                                                    <Link
-                                                        href={serviceCategory.desktopLinkToServiceCategory6}
-                                                        className="nav-bar-link-service-category">
-
+                                                    <Link href={serviceCategory.desktopLinkToServiceCategory6} className="nav-bar-link-service-category">
                                                         {serviceCategory.serviceCategory6}
-
                                                     </Link>
                                                 </h3>
                                             </div>
@@ -117,9 +113,7 @@ export default function DesktopNavBar() {
                                                     <Link
                                                         href={serviceCategory.desktopLinkToServiceCategory7}
                                                         className="nav-bar-link-service-category">
-
                                                         {serviceCategory.serviceCategory7}
-
                                                     </Link>
                                                 </h3>
                                             </div>
@@ -127,9 +121,7 @@ export default function DesktopNavBar() {
                                     </div>
                                     <h2 className="nav-bar-main-category">
                                         <Link href={menu.linkToMainMenu3} className="nav-bar-link-main-menu">
-
                                             {menu.mainMenu3}
-
                                         </Link>
                                     </h2>
                                     <h2 className="nav-bar-main-category">
@@ -151,7 +143,7 @@ export default function DesktopNavBar() {
                                             <a href="https://www.facebook.com/beautifulnailsportsmouthpo11de" >
                                                 <div className="footer-navigation-item-details-2">
                                                     <div>
-                                                        <img className="facebook-image-2" src={images.iconFacebook} />
+                                                        <img className="nav-bar-facebook-image" src={images.iconFacebook} />
                                                     </div>
                                                 </div>
                                             </a>
@@ -160,7 +152,7 @@ export default function DesktopNavBar() {
                                             <a href="https://www.instagram.com/beautifulnails_portsmouth" >
                                                 <div className="footer-navigation-item-details-2">
                                                     <div>
-                                                        <img className="instagram-image-3" src={images.iconInstagram} />
+                                                        <img className="nav-bar-instagram-image" src={images.iconInstagram} />
                                                     </div>
                                                 </div>
                                             </a>

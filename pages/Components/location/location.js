@@ -8,7 +8,7 @@ import { changedInfo } from '/pages/core/info';
 import { processedInfo } from '/pages/core/info';
 import { pageContent } from '/pages/core/info';
 
-export default function Location(){
+export default function Location() {
 
     return <>
         <div className="location">

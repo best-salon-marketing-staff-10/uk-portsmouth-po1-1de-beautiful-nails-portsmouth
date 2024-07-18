@@ -3,8 +3,8 @@ import { changedInfo } from "../core/info";
 import { processedInfo } from '/pages/core/info';
 import { pageContent } from '/pages/core/info';
 
-export default function ContentOurPolicy(){
-    return(
+export default function ContentOurPolicy() {
+    return (
         <>
             <div className="content-our-policy">
                 <h1 className="content-heading-h1">
@@ -56,5 +56,5 @@ export default function ContentOurPolicy(){
                 </div>
             </div>
         </>
-    );
+    )
 }

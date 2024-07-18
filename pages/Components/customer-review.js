@@ -7,10 +7,6 @@ import { pageContent } from '/pages/core/info';
 import { imageAlt } from '/pages/core/info';
 import { images } from '/pages/core/info';
 
-
-
-
-
 export default function CustomerReview() {
     return (
         <>
@@ -25,12 +21,11 @@ export default function CustomerReview() {
                     <div className="divider">
                     </div>
                 </div>
-                
                 <div className="customer-review-carousel">
                     <Carousel fade={true} controls={false} interval="1800">
                         <Carousel.Item >
                             <div className="carousel-image">
-                                <img 
+                                <img
                                     className="customer-review-carousel-image"
                                     src={images.cusReviewImage1}
                                     alt={imageAlt.cusReviewImage1Alt}
@@ -73,11 +68,10 @@ export default function CustomerReview() {
                                 />
                             </div>
                         </Carousel.Item>
-                    </Carousel> 
-                </div>    
+                    </Carousel>
+                </div>
                 <div className="button">
-                    
-                </div>       
+                </div>
             </div>
         </>
     )

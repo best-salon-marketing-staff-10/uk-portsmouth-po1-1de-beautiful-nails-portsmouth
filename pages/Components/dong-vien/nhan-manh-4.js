@@ -3,9 +3,9 @@ import { imageAlt } from '/pages/core/info';
 import { pageContent } from '/pages/core/info';
 import { images } from '/pages/core/info';
 
-export default function NhanManh4(){
+export default function NhanManh4() {
 
-    return(
+    return (
         <>
             <div className="nhan-manh-4-background">
                 <div className="nhan-manh-4-content-1">
@@ -24,7 +24,7 @@ export default function NhanManh4(){
                         <img alt={imageAlt.section7Image1Alt} src={images.section7Image1} />
                     </div>
                 </div>
-                
+
                 <div className="nhan-manh-4-content-2">
                     <div className="nhan-manh-4-content-2-image">
                         <img alt={imageAlt.section7Image2Alt} src={images.section7Image2} />

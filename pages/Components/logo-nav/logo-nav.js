@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { changedInfo } from '/pages/core/info';
 
-export default function LogoNav(){
+export default function LogoNav() {
 
     return <>
         <Link href="/" legacyBehavior>
             <div className="logo-container">
                 <div className="logo">
-                    <img className="logo"src={changedInfo.businessLogo} />
+                    <img className="logo" src={changedInfo.businessLogo} />
                 </div>
                 <div className="logo-text">
                     <h2 className="logo-text-1">

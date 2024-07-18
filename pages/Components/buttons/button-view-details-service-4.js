@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { button } from '/pages/core/info';
 
-export default function ButtonViewDetailsService4(){
+export default function ButtonViewDetailsService4() {
     return <>
         <div className="button-view-details-service-4-to-mobile">
             <Link href={button.button9LinkToMobile} legacyBehavior>

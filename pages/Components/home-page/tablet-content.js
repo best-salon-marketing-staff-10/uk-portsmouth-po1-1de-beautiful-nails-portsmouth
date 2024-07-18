@@ -22,15 +22,13 @@ import { imageAlt } from '/pages/core/info';
 import { pageContent } from '/pages/core/info';
 import { images } from '/pages/core/info';
 
-export default function TabletContent(){
-    return(
+export default function TabletContent() {
+    return (
         <>
             <div className="tablet-content">
-
                 <div className="first-screen-block">
                     <img className="first-screen-block-anh" alt={imageAlt.tabletCarouselImage1Alt} src={images.tabletCarouselImage1} />
                     <div className="first-screen-block-bottom">
-                        
                     </div>
                 </div>
                 <div id="t-section-1">
@@ -56,11 +54,8 @@ export default function TabletContent(){
                         <TimeSchedule />
                     </div>
                 </div>
-                
                 <div>
-                    
                 </div>
-
                 <div className="homepage-tablet-services">
                     <div className="services-list-1">
                         <div className="service-container">
@@ -98,9 +93,6 @@ export default function TabletContent(){
                         </div>
                     </div>
                 </div>
-
-
-            
             </div>
         </>
     )
