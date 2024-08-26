@@ -18,8 +18,8 @@ import Service7PriceList from '/pages/services/service-7-price-list';
 import Offers from '/pages/Components/offers/offers';
 
 
-export default function MobileContent(){
-    return(
+export default function MobileContent() {
+    return (
         <>
             <div className="services-list">
                 <div className="services-list-1">
@@ -30,7 +30,7 @@ export default function MobileContent(){
                         <div id="m-service-list-1">
                             <Service1PriceList />
                         </div>
-                        
+
                         <div className="button">
                             <Button3 />
                         </div>

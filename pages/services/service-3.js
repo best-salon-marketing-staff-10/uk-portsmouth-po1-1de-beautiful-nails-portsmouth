@@ -7,8 +7,8 @@ import { imageAlt } from '/pages/core/info';
 import { serviceCategory } from '/pages/core/info';
 import { pageContent } from '/pages/core/info';
 
-export default function Service3(){
-    return(
+export default function Service3() {
+    return (
         <>
             <div className="service">
                 <div className="service-content">
@@ -16,41 +16,41 @@ export default function Service3(){
                         <Carousel fade={true} controls={false} interval="1800">
                             <Carousel.Item>
                                 <div className="carousel-image">
-                                    <img className="d-block w-100" alt={imageAlt.serviceList3Image1Alt}  src={images.serviceList3Image1} />
+                                    <img className="d-block w-100" alt={imageAlt.serviceList3Image1Alt} src={images.serviceList3Image1} />
                                 </div>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <div className="carousel-image">
-                                    <img className="d-block w-100" alt={imageAlt.serviceList3Image2Alt}  src={images.serviceList3Image2} />
+                                    <img className="d-block w-100" alt={imageAlt.serviceList3Image2Alt} src={images.serviceList3Image2} />
                                 </div>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <div className="carousel-image">
-                                    <img className="d-block w-100" alt={imageAlt.serviceList3Image3Alt}  src={images.serviceList3Image3} />
+                                    <img className="d-block w-100" alt={imageAlt.serviceList3Image3Alt} src={images.serviceList3Image3} />
                                 </div>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <div className="carousel-image">
-                                    <img className="d-block w-100" alt={imageAlt.serviceList3Image4Alt}  src={images.serviceList3Image4} />
+                                    <img className="d-block w-100" alt={imageAlt.serviceList3Image4Alt} src={images.serviceList3Image4} />
                                 </div>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <div className="carousel-image">
-                                    <img className="d-block w-100" alt={imageAlt.serviceList3Image5Alt}  src={images.serviceList3Image5} />
+                                    <img className="d-block w-100" alt={imageAlt.serviceList3Image5Alt} src={images.serviceList3Image5} />
                                 </div>
                             </Carousel.Item>
-                        </Carousel> 
-                    </div>       
+                        </Carousel>
+                    </div>
                 </div>
                 <div className="service-content-text">
                     <div className="service-content-title">
                         <h2 className="service-content-title">
-                            {serviceCategory.serviceCategory3}   
+                            {serviceCategory.serviceCategory3}
                         </h2>
-                    </div> 
+                    </div>
                     <div className="service-content-description">
                         <p className="service-content-description">
-                            {pageContent.serviceCategory3Description} 
+                            {pageContent.serviceCategory3Description}
                         </p>
                     </div>
                     <div className="button-view-detail-services">

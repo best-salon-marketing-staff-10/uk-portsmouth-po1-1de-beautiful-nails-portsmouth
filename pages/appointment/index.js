@@ -8,24 +8,20 @@ import Router from 'next/router';
 
 import { processedInfo } from '/pages/core/info';
 import { headerInput } from '/pages/core/info';
+import { changedInfo } from '/pages/core/info'
+
+import FullScreenIframe from '/pages/Components/FullScreenIframe'
 
 export default function Appointment() {
   if (process.browser) {
     document.oncontextmenu = new Function("return false;");
   }
-  useEffect(() => {
-    const { pathname } = Router
-    if (pathname == '/appointment') {
-      Router.push(processedInfo.businessBookingLink)
-    }
-  });
 
   return (
     <>
       <Head>
         <title>{headerInput.headerTitle}</title>
-        <meta name="description"
-          content={headerInput.metaDescription} />
+        <meta name="description" content={headerInput.metaDescription} />
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -44,15 +40,16 @@ export default function Appointment() {
 
         <meta property='og:title' content={headerInput.metaOgTitle} />
         <meta property='og:image' content={headerInput.metaOgImage} />
-        <meta property='og:description'
-          content={headerInput.metaDescription} />
+        <meta property='og:description' content={headerInput.metaDescription} />
         <meta property='og:url' content={headerInput.relCanonical} />
         <meta property='og:image:width' content={headerInput.metaOgImageWidth} />
         <meta property='og:image:height' content={headerInput.metaOgImageHeight} />
         <meta property="og:type" content='website' />
-
       </Head>
 
+      <div>
+        <FullScreenIframe src={changedInfo.linkBookingApp} />
+      </div>
     </>
   )
 }

@@ -18,8 +18,8 @@ import Service7PriceList from '/pages/services/service-7-price-list';
 import Offers from '/pages/Components/offers/offers';
 
 
-export default function TabletContent(){
-    return(
+export default function TabletContent() {
+    return (
         <>
             <div className="services-list">
                 <div className="services-list-1">
@@ -30,14 +30,14 @@ export default function TabletContent(){
                         <div id="t-service-list-1">
                             <Service1PriceList />
                         </div>
-                        
+
                         <div className="button">
                             <Button3 />
                         </div>
                     </div>
                 </div>
-                    <div className="services-list-2">
-                        <div className="service-container">
+                <div className="services-list-2">
+                    <div className="service-container">
                         <div>
                             <Service2 />
                         </div>
@@ -75,7 +75,7 @@ export default function TabletContent(){
                         </div>
                     </div>
                 </div>
-                
+
                 <div className="services-list-5">
                     <div className="service-container">
                         <div>

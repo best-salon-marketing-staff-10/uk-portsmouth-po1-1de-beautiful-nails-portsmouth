@@ -1,7 +1,7 @@
 import { serviceList5 } from '/pages/core/info';
 
-export default function Service5PriceList(){
-    return(
+export default function Service5PriceList() {
+    return (
         <>
             <div className="service-list-5">
                 <div className="price-list-details-services">
@@ -12,7 +12,7 @@ export default function Service5PriceList(){
                                     {serviceList5.service8}
                                 </span>
                                 <span className="price-list-details-services-name-notice">
-                                    
+
                                 </span>
                             </div>
                             <div className="price-list-details-services-time">
@@ -28,10 +28,10 @@ export default function Service5PriceList(){
                         </div>
                         <div className="price-list-details-services-price">
                             <span className="price-list-addition-info">
-                                
+
                             </span>
                             <span className="price-list-details-services-price">
-                               £{serviceList5.service8Price}
+                                £{serviceList5.service8Price}
                             </span>
                         </div>
                     </div>

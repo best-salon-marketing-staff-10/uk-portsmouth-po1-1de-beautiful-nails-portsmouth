@@ -18,14 +18,14 @@ import Service6PriceList from '/pages/services/service-6-price-list';
 import Service7PriceList from '/pages/services/service-7-price-list';
 import Offers from '/pages/Components/offers/offers';
 
-export default function DesktopContent(){
-    return(
+export default function DesktopContent() {
+    return (
         <>
             <div className="services-list">
                 <div className="services-list-1">
                     <div className="service-container">
                         <div>
-                                <Service1 />
+                            <Service1 />
                         </div>
                         <div id="d-service-list-1">
                             <Service1PriceList />
@@ -35,8 +35,8 @@ export default function DesktopContent(){
                         </div>
                     </div>
                 </div>
-                    <div className="services-list-2">
-                        <div className="service-container">
+                <div className="services-list-2">
+                    <div className="service-container">
                         <div>
                             <Service2 />
                         </div>
@@ -74,7 +74,7 @@ export default function DesktopContent(){
                         </div>
                     </div>
                 </div>
-                
+
                 <div className="services-list-5">
                     <div className="service-container">
                         <div>
@@ -88,14 +88,14 @@ export default function DesktopContent(){
                         </div>
                     </div>
                 </div>
-                
+
                 <div className="services-list-6">
                     <div className="service-container">
                         <div>
                             <Service6 />
                         </div>
                         <div id="d-service-list-6">
-                        <Service6PriceList />
+                            <Service6PriceList />
                         </div>
                         <div className="button">
                             <Button3 />
@@ -109,7 +109,7 @@ export default function DesktopContent(){
                             <Service7 />
                         </div>
                         <div id="d-service-list-7">
-                        <Service7PriceList />
+                            <Service7PriceList />
                         </div>
                         <div className="button">
                             <Button3 />
@@ -122,7 +122,7 @@ export default function DesktopContent(){
                 <div>
                     <Offers />
                 </div>
-                
+
             </div>
         </>
     )

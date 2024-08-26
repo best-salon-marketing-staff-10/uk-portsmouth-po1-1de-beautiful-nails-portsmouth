@@ -18,95 +18,95 @@ import { headerInput } from '/pages/core/info';
 
 export default function Home() {
 
-  if (process.browser){
+  if (process.browser) {
     document.oncontextmenu = new Function("return false;");
   }
   return (
-    
+
     <>
-        <Head>
-          <title>{headerInput.headerTitle}</title>
-          <meta name="description" 
-            content= {headerInput.metaDescription} />
-          <meta charSet="UTF-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          
-          <link rel="icon" href={headerInput.relIcon} />
-          <link rel="canonical" href={headerInput.relCanonical} />
-          <link rel="alternate" hrefLang="en" href={headerInput.relCanonical} />
-          <link rel="alternate" href={headerInput.relCanonical} hrefLang="x-default" />
+      <Head>
+        <title>{headerInput.headerTitle}</title>
+        <meta name="description"
+          content={headerInput.metaDescription} />
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-          <meta name="geo.position" content={headerInput.metaGeoPosition} />
-          <meta name="geo.placename" content={headerInput.metaGeoPlaceName} />
-          <meta name="geo.region" content={headerInput.metaGeoRegion} />
+        <link rel="icon" href={headerInput.relIcon} />
+        <link rel="canonical" href={headerInput.relCanonical} />
+        <link rel="alternate" hrefLang="en" href={headerInput.relCanonical} />
+        <link rel="alternate" href={headerInput.relCanonical} hrefLang="x-default" />
 
-          <meta property="og:site_name" content={headerInput.metaOgSiteName} />
-          <meta property="og:locale" content={headerInput.metaOgLocale} />
-          
+        <meta name="geo.position" content={headerInput.metaGeoPosition} />
+        <meta name="geo.placename" content={headerInput.metaGeoPlaceName} />
+        <meta name="geo.region" content={headerInput.metaGeoRegion} />
 
-          <meta property='og:title' content={headerInput.metaOgTitle} />
-          <meta property='og:image' content={headerInput.metaOgImage} />
-          <meta property='og:description' 
-            content={headerInput.metaDescription} />
-          <meta property='og:url' content={headerInput.relCanonical} />
-          <meta property='og:image:width' content={headerInput.metaOgImageWidth} />
-          <meta property='og:image:height' content={headerInput.metaOgImageHeight} />
-          <meta property="og:type" content='website' />
-        </Head>
+        <meta property="og:site_name" content={headerInput.metaOgSiteName} />
+        <meta property="og:locale" content={headerInput.metaOgLocale} />
+
+
+        <meta property='og:title' content={headerInput.metaOgTitle} />
+        <meta property='og:image' content={headerInput.metaOgImage} />
+        <meta property='og:description'
+          content={headerInput.metaDescription} />
+        <meta property='og:url' content={headerInput.relCanonical} />
+        <meta property='og:image:width' content={headerInput.metaOgImageWidth} />
+        <meta property='og:image:height' content={headerInput.metaOgImageHeight} />
+        <meta property="og:type" content='website' />
+      </Head>
 
       <div className="page-container">
-            <div className="page-nav-bar">
-              <div className="page-top-bar">
-                <div className="page-desktop-top-bar">
-                  <DesktopTopBar />
-                </div>
-                <div className="page-mobile-top-bar">
-                  <MobileTopBar />
-                </div>
-                <div className="page-tablet-top-bar">
-                  <TabletTopBar />
-                </div>
-              </div>
-              <div className="page-nav-bar">
-                <div className="page-mobile-nav-bar">
-                  <MobileNavBar />
-                </div>
-                <div className="page-tablet-nav-bar">
-                  <TabletNavBar />
-                </div>
-                <div className="page-desktop-nav-bar">
-                  <DesktopNavBar />
-                </div>
-              </div>
-              <div className="page-bottom-nav-bar">
-                <div className="mobile-bottom-nav-bar">
-                  <MobileBottomNavBar />
-                </div>
-              </div>
+        <div className="page-nav-bar">
+          <div className="page-top-bar">
+            <div className="page-desktop-top-bar">
+              <DesktopTopBar />
             </div>
-            <div className="page-content">
-              <div className="page-desktop-content">
-                  <DesktopContent />
-              </div>
-              <div className="page-mobile-content">
-                <MobileContent />
-              </div>
-              <div className="page-tablet-content">
-                <TabletContent />
-              </div>
+            <div className="page-mobile-top-bar">
+              <MobileTopBar />
             </div>
-            <div className="page-footer">
-              <div className="page-desktop-footer">
-                <DesktopFooter />
-              </div>
-              <div className="page-mobile-footer">
-                <MobileFooter />
-              </div>
-              <div className="page-tablet-footer">
-                <TabletFooter />
-              </div>
-            </div>  
+            <div className="page-tablet-top-bar">
+              <TabletTopBar />
+            </div>
           </div>
+          <div className="page-nav-bar">
+            <div className="page-mobile-nav-bar">
+              <MobileNavBar />
+            </div>
+            <div className="page-tablet-nav-bar">
+              <TabletNavBar />
+            </div>
+            <div className="page-desktop-nav-bar">
+              <DesktopNavBar />
+            </div>
+          </div>
+          <div className="page-bottom-nav-bar">
+            <div className="mobile-bottom-nav-bar">
+              <MobileBottomNavBar />
+            </div>
+          </div>
+        </div>
+        <div className="page-content">
+          <div className="page-desktop-content">
+            <DesktopContent />
+          </div>
+          <div className="page-mobile-content">
+            <MobileContent />
+          </div>
+          <div className="page-tablet-content">
+            <TabletContent />
+          </div>
+        </div>
+        <div className="page-footer">
+          <div className="page-desktop-footer">
+            <DesktopFooter />
+          </div>
+          <div className="page-mobile-footer">
+            <MobileFooter />
+          </div>
+          <div className="page-tablet-footer">
+            <TabletFooter />
+          </div>
+        </div>
+      </div>
 
     </>
   )

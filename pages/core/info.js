@@ -54,6 +54,7 @@ serviceList
 //Cần bố trí lại, xem những thông tin gì cần sửa thì cho riêng vào 1 mục
 
 //Cần sửa mục nào thì ghi hết vào đây
+
 /*
 businessOpeningTimeInput
 personReviewAuthorName
@@ -78,8 +79,8 @@ const businessOpeningTimeInput = {
   satOpeningTime: "09:00",
   satClosingTime: "19:00",
 
-  sunOpeningTime: "11:00",
-  sunClosingTime: "16:00",
+  sunOpeningTime: "10:00",
+  sunClosingTime: "17:00",
 }
 
 const processedBusinessOpeningTime = {
@@ -93,7 +94,6 @@ const processedBusinessOpeningTime = {
   workingTimeSat: "Saturday: " + businessOpeningTimeInput.satOpeningTime + " - " + businessOpeningTimeInput.satClosingTime,
   workingTimeSun: "Sunday: " + businessOpeningTimeInput.sunOpeningTime + " - " + businessOpeningTimeInput.sunClosingTime,
 }
-
 
 const changedInfo = {
   businessName: "Beautiful Nails Portsmouth",
@@ -112,16 +112,13 @@ const changedInfo = {
   businessPhoneNumber: "02392170505",
 
   //Website tiệm KO có dấu / ở cuối
-  businessWebsite: "https://beautiful-nails-portsmouth.web.app/",
+  businessWebsite: "https://beautiful-nails-portsmouth.web.app",
 
-  //
   linkBookingMap: "",
-  //
   linkBookingApp: "https://bit.ly/3VYB0Lv",
-
   linkToMap: "https://maps.app.goo.gl/pn6QwbjjzBEDZH7D7",
 
-  //Mở Google Maps tiệm, zoom sát vào, chuột phải 
+  //Mở Google Maps tiệm, zoom sát vào, chuột phải
   geoLatitude: 50.80007739308251,
   geoLongitude: -1.0912337227622233,
 
@@ -370,7 +367,6 @@ const headerInput = {
   metaGoogleSiteVerification: changedInfo.metaGoogleSiteVerification,
 }
 
-
 //Cần sửa trong mục này
 const schemaInput = {
   schemaType: "NailSalon",
@@ -401,7 +397,6 @@ const schemaInput = {
   schemaImage18: "/images/pedicure-3.jpg",
   schemaImage19: "/images/pedicure-4.jpg",
   schemaImage20: "/images/pedicure-5.jpg",
-
 
   schemaTelephone: changedInfo.businessPhoneNumber,
 
@@ -629,12 +624,12 @@ const pageContent = {
   contentOurPolicyHeadingSmall3: "Tardiness",
   contentOurPolicyHeadingSmall4: "Cancellations",
   contentOurPolicyHeadingSmall5: "Gift Cards",
-  contentOurPolicyDescription1: "At " + changedInfo.businessName + ", we will do anything we can to make sure you are satisfied. You are never just a customer, you’re part of the family. If your nails are not up to your expectations or if there’s something we can do to rectify it, speak up and let us know.    No refunds will be given after you have left the salon.",
+  contentOurPolicyDescription1: "At " + changedInfo.businessName + ", we will do anything we can to make sure you are satisfied. You are never just a customer, you’re part of the family. If your nails are not up to your expectations or if there’s something we can do to rectify it, speak up and let us know. No refunds will be given after you have left the salon.",
   contentOurPolicyDescription2: "Enhancements and gel polish manicures are guaranteed for 7 business days after your appointment; excluding breakages. If you lose an enhancement or notice chips or lifting in the first seven days, please call us to schedule a free repair. Repairs after 7 days or for breakages, tears, and corner breaks are charged. Be kind to your nails and they will look beautiful for weeks after your service. Traditional polish services are not guaranteed.",
   contentOurPolicyDescription3: "Scheduled appointments have a 15 minute grace period to allow for traffic snarls or parking difficulties. If you anticipate that you will be later than 15 minutes, please call ahead to see if we have the availability to complete your service in full. One late client can throw off our entire schedule and cause our other clients to be late for their commitments. Therefore, if you arrive more than 15 minutes late, we reserve the right to refuse partial or complete services.",
   contentOurPolicyDescription41: "Appointments can be cancelled 24 hours in advance by calling or texting ",
   contentOurPolicyDescription42: ". Please give at least 24 hours notice so that we have the opportunity to offer your reserved time to another client on our waiting list. We understand that sometimes emergencies happen, and it's not always possible to give adequate notice when you can't make an appointment. However, be aware that if you repeatedly cancel appointments without proper notice, we reserve the right to ask for a non-refundable deposit to secure your next appointment.",
-  contentOurPolicyDescription5: "The Gift Card and its balance are valid for a period of one year from the date of purchase. Your Gift Card will cease to be valid one year from the date of purchase and you will no longer be entitled to use it. ",
+  contentOurPolicyDescription5: "The Gift Card and its balance are valid for a period of one year from the date of purchase. Your Gift Card will cease to be valid one year from the date of purchase and you will no longer be entitled to use it.",
 
   //service-1.js
   serviceCategory1Description: "Transform your nails into works of art with our gorgeous nail extensions, available at our " + seoKeyword.seoKeyword1 + ". They are easy to put on, and they last for two whole weeks on average.  Our " + seoKeyword.seoKeyword1 + " was also built to be very comfy for customers. We eagerly anticipate the pleasure of pampering you soon!",
@@ -1674,3 +1669,6 @@ export default function Info() {
     </>
   );
 }
+
+
+// 206743429190092 - id page fb

@@ -17,7 +17,7 @@ import DesktopFooter from '/pages/Components/footer/desktop-footer'
 import MobileFooter from '/pages/Components/footer/mobile-footer'
 import TabletFooter from '/pages/Components/footer/tablet-footer'
 
-import Facebook from '/pages/Components/facebook.js'
+import Facebook from './Components/facebook'
 
 import { schemaData } from '/pages/core/info';
 import { headerInput } from '/pages/core/info';
@@ -27,6 +27,7 @@ export default function Home() {
   if (process.browser) {
     document.oncontextmenu = new Function("return false;");
   }
+
   return (
     <>
       <Head>
@@ -57,8 +58,7 @@ export default function Home() {
 
         <meta name="google-site-verification" content={headerInput.metaGoogleSiteVerification} />
 
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-        />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
       </Head>
       <div className="page-container">
         <div className="page-nav-bar">
@@ -90,6 +90,9 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <main>
+          <Facebook />
+        </main>
         <div className="page-content">
           <div className="page-desktop-content">
             <DesktopContent />
@@ -112,7 +115,6 @@ export default function Home() {
             <TabletFooter />
           </div>
         </div>
-        <Facebook />
       </div>
     </>
   )

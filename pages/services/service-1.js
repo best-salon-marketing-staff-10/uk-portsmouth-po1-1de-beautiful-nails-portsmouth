@@ -8,8 +8,8 @@ import { serviceCategory } from '/pages/core/info';
 import { pageContent } from '/pages/core/info';
 
 
-export default function Service1(){
-    return(
+export default function Service1() {
+    return (
         <>
             <div className="service">
                 <div className="service-content">
@@ -40,18 +40,18 @@ export default function Service1(){
                                     <img className="d-block w-100" alt={imageAlt.serviceList1Image5Alt} src={images.serviceList1Image5} />
                                 </div>
                             </Carousel.Item>
-                        </Carousel> 
-                    </div>       
+                        </Carousel>
+                    </div>
                 </div>
                 <div className="service-content-text">
                     <div className="service-content-title">
                         <h2 className="service-content-title">
                             {serviceCategory.serviceCategory1}
                         </h2>
-                    </div> 
+                    </div>
                     <div className="service-content-description">
                         <p className="service-content-description">
-                            {pageContent.serviceCategory1Description}   
+                            {pageContent.serviceCategory1Description}
                         </p>
                     </div>
                     <div className="button-view-detail-services">

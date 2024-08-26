@@ -7,8 +7,8 @@ import { imageAlt } from '/pages/core/info';
 import { serviceCategory } from '/pages/core/info';
 import { pageContent } from '/pages/core/info';
 
-export default function Service7(){
-    return(
+export default function Service7() {
+    return (
         <>
             <div className="service">
                 <div className="service-content">
@@ -39,19 +39,19 @@ export default function Service7(){
                                     <img className="service-content-anh" alt={imageAlt.serviceList7Image5Alt} src={images.serviceList7Image5} />
                                 </div>
                             </Carousel.Item>
-                        </Carousel> 
-                        
-                    </div>       
+                        </Carousel>
+
+                    </div>
                 </div>
                 <div className="service-content-text">
                     <div className="service-content-title">
                         <h2 className="service-content-title">
                             {serviceCategory.serviceCategory7}
                         </h2>
-                    </div> 
+                    </div>
                     <div className="service-content-description">
                         <p className="service-content-description">
-                            {pageContent.serviceCategory7Description} 
+                            {pageContent.serviceCategory7Description}
                         </p>
                     </div>
                     <div className="button-view-detail-services">
