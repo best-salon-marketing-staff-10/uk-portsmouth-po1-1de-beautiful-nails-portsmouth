@@ -115,7 +115,7 @@ const changedInfo = {
   businessWebsite: "https://beautiful-nails-portsmouth.web.app",
 
   linkBookingMap: "",
-  linkBookingApp: "https://bit.ly/3VYB0Lv",
+  linkBookingApp: "https://joybookings.com/beautifulnailsportsmouth/booking",
   linkToMap: "https://maps.app.goo.gl/pn6QwbjjzBEDZH7D7",
 
   //Mở Google Maps tiệm, zoom sát vào, chuột phải
