@@ -115,7 +115,7 @@ const changedInfo = {
   businessWebsite: "https://beautiful-nails-portsmouth.web.app",
 
   linkBookingMap: "",
-  linkBookingApp: "https://joybookings.com/beautifulnailsportsmouth/booking",
+  linkBookingApp: "https://bit.ly/3VYB0Lv",
   linkToMap: "https://maps.app.goo.gl/pn6QwbjjzBEDZH7D7",
 
   //Mở Google Maps tiệm, zoom sát vào, chuột phải
@@ -828,7 +828,7 @@ const images = {
 
   //Ảnh Facebook - Instagram
   iconFacebook: "/images/icons/facebook-icon.png",
-  iconInstagram: "/images/icons/1025px-Instagram-Icon.png",
+  iconInstagram: "/images/icons/1025px-Instagram-Icon-compressed.jpg",
 
   //Phần footer copyright
   //Phần này có thể chuyển sang chỗ khác
